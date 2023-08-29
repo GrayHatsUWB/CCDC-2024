@@ -1,0 +1,93 @@
+body {
+    background-color: #0D1117;
+    color: #C9D1D9;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.timer {
+    font-size: 80px;
+    font-weight: bold;
+    color: #F0F6FC;
+    margin-right: 10px;
+}
+
+.sync-button {
+    background-color: #238636;
+    color: #F0F6FC;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.inject-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.inject-inputs input[type="text"],
+.inject-inputs select {
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.inject-inputs select {
+    width: 80px;
+}
+
+.add-inject-button {
+    background-color: #238636;
+    color: #F0F6FC;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #C9D1D9;
+}
+
+.past-inject {
+    font-weight: bold;
+    color: #F0F6FC;
+}
+
+.past-inject-lilac {
+    color: #C8A2C8;
+}
+
+.timer-green {
+    color: #90EE90;
+}
+
+.timer-yellow {
+    color: #FFEA61;
+}
+
+.timer-red {
+    color: #FF4F4B;
+}

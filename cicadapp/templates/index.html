@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>UW Bothell CCDC Inject Timer</title>
+	    <link rel="stylesheet" type="text/css" href="static/styles/style.css">
+		<script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+	</head>
+	<body>
+	    <h1>UW Bothell CCDC Inject Timer</h1>
+	    <div class="timer-container">
+		<div class="timer" id="timer">05:00</div>
+		<button class="sync-button" onclick="resetTimerButtonClick()">Sync</button>
+	    </div>
+	    <div class="inject-inputs">
+		<input type="text" id="injectName" placeholder="Inject Name">
+		<select id="injectType">
+		    <option value="Client">Client</option>
+		    <option value="Executive">Executive</option>
+		    <option value="Firewall">Firewall</option>
+		    <option value="Linux">Linux</option>
+		    <option value="Web">Web</option>
+		    <option value="Windows">Windows</option>
+		    <option value="Misc">Misc</option>
+		</select>
+		<input type="text" id="overallTime" placeholder="Overall Time (mm:ss)">
+		<span>Priority Lvl.</span>
+		<select id="priorityLevel">
+		    <option value="1">1</option>
+		    <option value="2">2</option>
+		    <option value="3">3</option>
+		    <option value="4">4</option>
+		    <option value="5">5</option>
+		</select>
+		<span>Difficulty Lvl.</span>
+		<select id="difficultyLevel">
+		    <option value="1">1</option>
+		    <option value="2">2</option>
+		    <option value="3">3</option>
+		    <option value="4">4</option>
+		    <option value="5">5</option>
+		</select>
+		<button class="add-inject-button" onclick="createInject()">Add Inject</button>
+	    </div>
+	    <table id="injectTable">
+		<thead>
+		    <tr>
+		        <th>Inject Name</th>
+		        <th>Inject Type</th>
+		        <th>Remaining Time</th>
+		        <th>Priority Level</th>
+		        <th>Difficulty Level</th>
+		        <th>Overall Time</th>
+		        <th>Move</th>
+		    </tr>
+		</thead>
+		<tbody>
+		</tbody>
+	    </table>
+	    <table id="pastInjectsTable">
+		<thead>
+		    <tr>
+		        <th>Past Injects</th>
+		    </tr>
+		</thead>
+		<tbody>
+		</tbody>
+	    </table>
+	    <script src="/static/script.js"></script>
+	</body>
+</html>
