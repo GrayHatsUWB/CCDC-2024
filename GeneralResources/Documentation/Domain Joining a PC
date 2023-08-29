@@ -1,0 +1,15 @@
+1) Login to machine using the local administrator
+2) Open settings
+3) Choose Network and Internet
+4) Change adapter options
+5) Choose ethernet internet 0
+6) Choose Properties
+7) Highlight Internet Protocol 4
+8) Choose Properties
+9) Choose "use the following dns server" and use 192.168.1.21
+10) Open sysdm.cpl
+11) Click change
+12) Choose Domain 
+13) Type windomain.local
+14) Use admin creds
+15) Should be domain joined!

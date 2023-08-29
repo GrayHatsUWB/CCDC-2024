@@ -1,0 +1,10 @@
+1. go to Active Directory
+2. Open Server Manager App
+3. Go to Tools (upper right hand corner of the Server Manager App)
+4. Click on DNS
+5. The DNS Manager App will open, and expand WIN-AD, Forward Lookup Zones and then right click on grayhats.local
+6. Select New Host (A or AAAA)...
+7. Fill in the "Name" field and "IP Address" field and click "Add Host" button on the bottom of the dialog box.
+
+
+

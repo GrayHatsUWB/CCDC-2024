@@ -1,0 +1,20 @@
+Sunday July 16, 2023:
+-If you don't know something, ask a teammate
+-Self study time
+-Marco has been learning about palto-alto firewall in his room for days on end
+-Learn for blue team: Github -> WGU, Python, PowerShell, Rust, Ansible, WinRu, Stigs - protect, nessus, Wordpress, ubuntu
+
+Sunday July 23, 2023:
+-Use Velociraptor
+  -Computer investigator tool
+  -good tool for monitoring incidents
+  -Use for IR
+-Set up powershell for practice attacks
+  -Atomic red team .io
+  -list of attacks that attackers have done
+  -mitre has this list
+  -Go to atomic red team github for more info
+-Nessus
+  -Looks for CVE on a windows box
+  -doesn't look at permission drifts
+
