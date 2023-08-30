@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	    <title>UW Bothell CCDC Inject Timer</title>
+	    <title>CicadaComms - UWB CCDC Inject Timer</title>
 	    <link rel="stylesheet" type="text/css" href="static/styles/style.css">
 		<script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
 	</head>
 	<body>
-	    <h1>UW Bothell CCDC Inject Timer</h1>
+	    <h1>CicadaComms - UWB CCDC Inject Timer</h1>
 	    <div class="timer-container">
 		<div class="timer" id="timer">05:00</div>
 		<button class="sync-button" onclick="resetTimerButtonClick()">Sync</button>
@@ -41,7 +41,7 @@
 		</select>
 		<button class="add-inject-button" onclick="createInject()">Add Inject</button>
 	    </div>
-	    <table id="injectTable">
+	    <table id="injectTable" class="draggable-table">
 		<thead>
 		    <tr>
 		        <th>Inject Name</th>

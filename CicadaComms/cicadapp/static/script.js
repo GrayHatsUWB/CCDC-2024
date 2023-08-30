@@ -27,8 +27,6 @@ function createInject()
     'priority': priorityLevel,
     'difficulty': difficultyLevel
   }
-
-  addInject(newInject);
   socket.emit("new_inject", newInject);
 
   //RESET INPUT FIELDS
@@ -46,40 +44,9 @@ function addInject(inject)
   var injectTable = document.getElementById("injectTable");
   var rows = injectTable.getElementsByTagName("tr");
 
-  // Find the appropriate position to insert the new inject
-  var insertIndex = 1; // Start from index 1 to skip the header row
-
-  for (var i = 1; i < rows.length; i++) {
-    var currentInjectTypeCell = rows[i].getElementsByTagName("td")[1];
-    var currentInjectType = currentInjectTypeCell.innerText;
-    var currentRemainingTimeCell = rows[i].getElementsByTagName("td")[2];
-    var currentRemainingTime = convertTimeToSeconds(currentRemainingTimeCell.innerText);
-
-    // Compare inject types first
-    if (injectType.localeCompare(currentInjectType) < 0) 
-    {
-      break;
-    } 
-    else if (injectType.localeCompare(currentInjectType) === 0) 
-    {
-      // Same inject type, compare remaining time
-      if (convertTimeToSeconds(overallTime) < currentRemainingTime) 
-      {
-        break;
-      } 
-      else 
-      {
-        insertIndex++;
-      }
-    } 
-    else 
-    {
-      insertIndex++;
-    }
-  }
-
+ 
   // Insert the new row at the determined position
-  var newRow = injectTable.insertRow(insertIndex);
+  var newRow = injectTable.insertRow(1);
 
   //CREATE CELLS WITHIN ROW
   var nameCell = newRow.insertCell();
