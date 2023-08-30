@@ -118,6 +118,9 @@ function addInject(inject)
   moveButton.innerText = "Move";
   moveButton.addEventListener("click", moveInject);
   moveButtonCell.appendChild(moveButton);
+
+  var audio = new Audio('static/killsound.wav');
+  audio.play();
 }
 
 
