@@ -91,3 +91,26 @@ th, td {
 .timer-red {
     color: #FF4F4B;
 }
+
+@keyframes flash {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+.flash {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #9b881e ,#0D1117, #9b881e);
+    z-index: -1;
+    animation-name: flash;
+    animation-duration: 0.5s;
+    opacity: 0;
+}

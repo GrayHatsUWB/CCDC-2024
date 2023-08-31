@@ -88,6 +88,9 @@ function addInject(inject)
 
   var audio = new Audio('static/killsound.wav');
   audio.play();
+
+  document.getElementById("flashcontrol").classList.add("flash");
+  document.getElementById("flashcontrol").addEventListener("animationend", () => element.classList.remove("flash"), {once: true});
 }
 
 
