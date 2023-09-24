@@ -7,6 +7,15 @@
         <link rel="stylesheet" type="text/css" href="{% static 'injecttimer/main.css' %}">
     </head>
     <body>
+
+        <div class="timer-container">
+            <div class="timer" id="timer">05:00</div>
+            <button class="sync-button" onclick="resetTimerButtonClick()">Sync</button>
+        </div>
+
+
+
+
         {% for inject in injects %}
             <h1>{{ inject.name }}</h1>
             <p>{{ inject.time_limit }} minutes</p>

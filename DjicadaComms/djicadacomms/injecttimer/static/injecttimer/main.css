@@ -1,5 +1,28 @@
 body {
-    background: linear-gradient(to right, #31265c ,#0D1117, #31265c);
+    background: linear-gradient(to right, #5b5477 ,#191522,#191522,#191522, #5b5477);
     color: #C9D1D9;
     font-family: Arial, sans-serif;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.timer {
+    font-size: 80px;
+    font-weight: bold;
+    color: #F0F6FC;
+    margin-right: 10px;
+}
+
+.sync-button {
+    background-color: #238636;
+    color: #F0F6FC;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
