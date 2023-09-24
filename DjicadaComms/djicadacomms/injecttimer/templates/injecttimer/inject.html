@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Djicada Comms</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'injecttimer/main.css' %}">
+    </head>
+    <body>
+        {% for inject in injects %}
+            <h1>{{ inject.name }}</h1>
+            <p>{{ inject.time_limit }} minutes</p>
+            <p>{{ inject.type }} - {{ inject.resources }}</p>        
+            <p> {{inject.notes }}</p>
+        {% endfor %}
+    </body>
+</html>
+
