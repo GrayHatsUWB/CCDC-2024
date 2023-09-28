@@ -12,6 +12,10 @@
 | Create a network topology with hardware, services, accounts, etc. | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/virtual-quals/Inject5.pdf) | | |
 | Install Splunk and configure to monitor user logins (KNOW OTHER THINGS AS WELL) | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/virtual-quals/Inject7.pdf) | | |
 | Perform an nmap scan and create a VISUAL TOPOLOGY of the network | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/virtual-quals/Inject8.pdf) | | |
+| Match list of people to user accounts and permissions | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/2018/wrccdcnov2018invitationalvirtual-injects/wrccdcnov2018invitationalvirtual-inject-8-listofusers-arizonastateuniversity.pdf) | | |
+| Create users in AD | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/2018/wrccdcnov2018invitationalvirtual-injects/wrccdcnov2018invitationalvirtual-inject-10-addnewemployees-arizonastateuniversity.pdf) | | |
+| Domain join a computer to AD | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/2018/wrccdcnov2018invitationalvirtual-injects/wrccdcnov2018invitationalvirtual-inject-13-userscantlogin-arizonastateuniversity.pdf) | | |
+| Implement DLP on a machine | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/2018/wrccdcnov2018invitationalvirtual-injects/wrccdcnov2018invitationalvirtual-inject-15-lostlaptops-arizonastateuniversity.pdf) | | |
 
 TODO STILL
 
