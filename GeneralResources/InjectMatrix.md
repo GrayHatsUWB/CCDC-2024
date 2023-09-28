@@ -19,8 +19,6 @@
 
 TODO STILL
 
-https://github.com/ankur8931/asu-ccdc/tree/master/injects/2018/wrccdcnov2018invitationalvirtual-injects
-
 https://github.com/ankur8931/asu-ccdc/tree/master/injects/2017
 
 https://github.com/ankur8931/asu-ccdc/tree/master/injects/2016
