@@ -3,61 +3,40 @@ Acceptable Use Policy (AUP) - Company XYZ
 This Acceptable Use Policy ("AUP") outlines the terms and conditions governing the use of Company XYZ's information technology resources, including but not limited to computer systems, networks, and internet access. By using these resources, you agree to comply with the following rules and guidelines:
 
 1. General Use
-
-a. Users are expected to use Company XYZ's resources for legitimate business purposes.
-
-b. Unauthorized access, use, or sharing of confidential information is strictly prohibited.
+  a. Users are expected to use Company XYZ's resources for legitimate business purposes.
+  b. Unauthorized access, use, or sharing of confidential information is strictly prohibited.
 
 2. Security
-
-a. Users must take reasonable steps to safeguard Company XYZ's resources from unauthorized access, including strong password protection and regular system updates.
-
-b. Any attempt to compromise the security of Company XYZ's systems is strictly prohibited.
+  a. Users must take reasonable steps to safeguard Company XYZ's resources from unauthorized access, including strong password protection and regular system updates.
+  b. Any attempt to compromise the security of Company XYZ's systems is strictly prohibited.
 
 3. Prohibited Activities
-
-a. Users shall not engage in any activities that are illegal or violate applicable laws and regulations.
-
-b. The transmission or distribution of malware, viruses, or any malicious software is prohibited.
-
-c. Users shall not engage in any form of harassment, discrimination, or cyberbullying.
+  a. Users shall not engage in any activities that are illegal or violate applicable laws and regulations.
+  b. The transmission or distribution of malware, viruses, or any malicious software is prohibited.
+  c. Users shall not engage in any form of harassment, discrimination, or cyberbullying.
 
 4. Internet Usage
-
-a. Internet access is provided for business purposes. Excessive or non-business use is prohibited.
-
-b. Users shall not access or download inappropriate or offensive content.
+  a. Internet access is provided for business purposes. Excessive or non-business use is prohibited.
+  b. Users shall not access or download inappropriate or offensive content.
 
 5. Password Policy
-
-a. Passwords used for accessing Company XYZ's systems and resources must adhere to the following requirements:
-
-i. Passwords must be at least 8 characters in length.
-
-ii. Passwords must contain both upper and lowercase alphabetic characters (e.g., A-Z, a-z).
-
-iii. Passwords must have at least one numerical character (e.g., 0-9).
-
-iv. Passwords must have at least one special character (e.g., ~!@#$%^&*()_-+=).
+  a. Passwords used for accessing Company XYZ's systems and resources must adhere to the following requirements:
+    i. Passwords must be at least 8 characters in length.
+    ii. Passwords must contain both upper and lowercase alphabetic characters (e.g., A-Z, a-z).
+    iii. Passwords must have at least one numerical character (e.g., 0-9).
+    iv. Passwords must have at least one special character (e.g., ~!@#$%^&*()_-+=).
 
 6. Data Loss Prevention (DLP) Policy
-
-a. Users are responsible for safeguarding company data and preventing data loss.
-
-b. Users must not share, transfer, or store sensitive company data on unauthorized devices or external storage without proper authorization.
-
-c. Any data breaches or loss of sensitive information must be reported immediately to the appropriate personnel.
+  a. Users are responsible for safeguarding company data and preventing data loss.
+  b. Users must not share, transfer, or store sensitive company data on unauthorized devices or external storage without proper authorization.
+  c. Any data breaches or loss of sensitive information must be reported immediately to the appropriate personnel.
 
 7. Monitoring
-
-a. Company XYZ reserves the right to monitor network traffic and system usage to ensure compliance with this AUP and the DLP policy.
-
-b. Users have no expectation of privacy when using Company XYZ's resources.
+  a. Company XYZ reserves the right to monitor network traffic and system usage to ensure compliance with this AUP and the DLP policy.
+  b. Users have no expectation of privacy when using Company XYZ's resources.
 
 8. Consequences of Violation
-
-a. Violations of this AUP may result in disciplinary action, including termination of access, and legal action as deemed appropriate.
-
-b. Users are responsible for any damages caused by their violation of this AUP.
+  a. Violations of this AUP may result in disciplinary action, including termination of access, and legal action as deemed appropriate.
+  b. Users are responsible for any damages caused by their violation of this AUP.
 
 By using Company XYZ's information technology resources, you agree to adhere to this AUP, including the Data Loss Prevention (DLP) policy.
