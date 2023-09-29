@@ -28,17 +28,36 @@ a. Internet access is provided for business purposes. Excessive or non-business 
 
 b. Users shall not access or download inappropriate or offensive content.
 
-5. Monitoring
+5. Password Policy
 
-a. Company XYZ reserves the right to monitor network traffic and system usage to ensure compliance with this AUP.
+a. Passwords used for accessing Company XYZ's systems and resources must adhere to the following requirements:
+
+i. Passwords must be at least 8 characters in length.
+
+ii. Passwords must contain both upper and lowercase alphabetic characters (e.g., A-Z, a-z).
+
+iii. Passwords must have at least one numerical character (e.g., 0-9).
+
+iv. Passwords must have at least one special character (e.g., ~!@#$%^&*()_-+=).
+
+6. Data Loss Prevention (DLP) Policy
+
+a. Users are responsible for safeguarding company data and preventing data loss.
+
+b. Users must not share, transfer, or store sensitive company data on unauthorized devices or external storage without proper authorization.
+
+c. Any data breaches or loss of sensitive information must be reported immediately to the appropriate personnel.
+
+7. Monitoring
+
+a. Company XYZ reserves the right to monitor network traffic and system usage to ensure compliance with this AUP and the DLP policy.
 
 b. Users have no expectation of privacy when using Company XYZ's resources.
 
-6. Consequences of Violation
+8. Consequences of Violation
 
 a. Violations of this AUP may result in disciplinary action, including termination of access, and legal action as deemed appropriate.
 
 b. Users are responsible for any damages caused by their violation of this AUP.
 
-By using Company XYZ's information technology resources, you agree to adhere to this AUP.
-
+By using Company XYZ's information technology resources, you agree to adhere to this AUP, including the Data Loss Prevention (DLP) policy.
