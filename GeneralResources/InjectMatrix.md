@@ -4,7 +4,7 @@
 | Handle Terminated Users Appropriately | Windows, Linux | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/Injects%20Document.docx) |  | |
 | Lock accounts and investigate suspicious behavior | Windows, Linux, Monitoring | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/Injects%20Document.docx) | | |
 | Evaluate risk in context of company and create Data Classification Policy | Leadership | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/Injects%20Document.docx) |  | |
-| Hashing files and large amounts of files (CLI?) | Windows, Linux | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/Injects%20Document.docx) | | |
+| Hashing files and large amounts of files (CLI?) | Windows, Linux | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/Injects%20Document.docx) | [StackOverflow](https://stackoverflow.com/questions/60289993/create-separate-md5-file-for-each-file-recursively)  | [Script](https://github.com/GrayHatsUWB/CCDC-2024/blob/main/CompetitionScripts/md5offilesinpwd.sh) |
 | Create a hardening plan and make it look professional | Leadership | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/Injects%20Document.docx) | | |
 | Create a status report on actions already taken, 60 minute plan, and long-term priorities. Make it professional. | Leadership | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/Injects%20Document.docx) | | |
 | Make changes to CCDC account usernames/passwords IN APPROPRIATE FORMAT | All Teams | [ASU CCDC](https://github.com/ankur8931/asu-ccdc/blob/master/injects/virtual-quals/Inject1.pdf) |  | |
