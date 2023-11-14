@@ -3,7 +3,7 @@ Architecture
 
 | BoxName         | IP     | PORT       | Service  |  Assigned  | Comments                            |
 |--------------|-----------|------------|------------|----------|-------------------------------------|
-| ProxMox      | 192.168.1.7 | 8006     | Hypervisor |          |This is the DELL R710 in the rack
+| ProxMox      | 192.168.1.7 | 8006     | Hypervisor |          | This is the DELL R710 in the rack
 | Ansible    | 192.168.1.27 | 22   | Ansible    | serveradmin    | Automation |
 | Nessus    | 192.168.1.39 | 8834  | HTTPS   | serveradmin    | CVE/Network Scanner |
 | WordPress3    | 192.168.1.220 | 8000   | Web     | grayhats    | http://192.168.1.220/wp-admin/ username:admin  https://192.168.1.220:12322 (Database Interface) username:adminer|
