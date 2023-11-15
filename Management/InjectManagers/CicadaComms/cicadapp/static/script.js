@@ -93,7 +93,7 @@ function addInject(inject)
   moveButton.addEventListener("click", moveInject);
   moveButtonCell.appendChild(moveButton);
 
-  var audio = new Audio('static/killsound.wav');
+  var audio = new Audio('static/addedInject.wav');
   audio.play();
 
   document.getElementById("flashcontrol").classList.add("flash");
@@ -145,6 +145,8 @@ function updateTimer() {
 
   if (remainingTime < 0) {
       resetTimer();
+      var audio = new Audio('static/timerReset.wav');
+      audio.play();
   }
 }
 
