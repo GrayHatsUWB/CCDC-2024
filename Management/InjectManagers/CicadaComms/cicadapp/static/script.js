@@ -40,13 +40,20 @@ function createInject()
 //IGNORE THIS - FOR ALL INTENTES AND PURPOSES SOLVED
 function addInject(inject) 
 {
-  //
-  var injectTable = document.getElementById("injectTable");
-  var rows = injectTable.getElementsByTagName("tr");
+  //Get inject table
 
- 
-  // Insert the new row at the determined position
-  var newRow = injectTable.insertRow(1);
+  var injectTable = document.getElementById("injectTable");
+  var foundSpot = false;
+  var rowChoice = 1;
+
+  while(!foundSpot)
+  {
+    if (rowChoice == injectTable.rows.length) foundSpot = true;
+    else if (injectTable.rows[rowChoice].cells[1].innerHTML.localeCompare(inject.inject_type) < 0) rowChoice++;
+    else if (parseInt(injectTable.rows[rowChoice].cells[3].innerHTML) * parseInt(injectTable.rows[rowChoice].cells[4].innerHTML) >= inject.priority * inject.difficulty) rowChoice++;
+    else foundSpot = true;
+  }
+  var newRow = injectTable.insertRow(rowChoice);
 
   //CREATE CELLS WITHIN ROW
   var nameCell = newRow.insertCell();
@@ -90,7 +97,7 @@ function addInject(inject)
   audio.play();
 
   document.getElementById("flashcontrol").classList.add("flash");
-  document.getElementById("flashcontrol").addEventListener("animationend", () => element.classList.remove("flash"), {once: true});
+  document.getElementById("flashcontrol").addEventListener("animationend", () => document.getElementById("flashcontrol").classList.remove("flash"), {once: true});
 }
 
 

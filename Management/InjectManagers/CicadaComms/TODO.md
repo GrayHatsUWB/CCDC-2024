@@ -1,4 +1,3 @@
-Fix noise and color display emits
 Add database file for refresh permenance and initial script loading
 Add meeting timer (make configurable)
 Make main sync button configurable
