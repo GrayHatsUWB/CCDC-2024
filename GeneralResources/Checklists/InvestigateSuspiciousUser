@@ -1,1 +1,10 @@
-
+1.	Gain Access to User Account.
+2.	Backup User System Logs.
+3.	Delete Logs on User System.
+4.	Change User password and set the password to not be changed.
+5.	Remove User from any Groups.
+6.	Set User account to Disabled.
+7.	Set the User to ‘Log on to’ to no computers.
+8.	Set the User’s Properties to ‘NULL’ or ‘Terminated’.
+9.	Add the User to a Group of Terminated Employees.
+10.	Remove the User from the Active Directory Domain Controller after a set amount of time.
