@@ -1,0 +1,15 @@
+1. Login with default creds
+2. Change default creds
+3. sudo apt update -y ; sudo apt upgrade -y 
+4. Linux Firewalls (ufw, fail2ban)
+5. Install sysmon (Script)
+6. ADD CanaryToken, Windows share, SQL, LLMNR, DNS, Word, Excel
+7. turn on AppLocker audit mode (aaronlocker review)
+8. Baseline with tcpview, processExplorer, and procmon, Adfind ADExplorer Sysinternals Suite - Sysinternals | Microsoft Learn
+9. Add EDR, like trails of ElasticEDR, or Sophos OR AURORA Agent - Nextron Systems (nextron-systems.com)
+10. Review Eventwr sysmon logs with Chainsaw and sigma rules: WithSecureLabs/chainsaw: Rapidly Search and Hunt through Windows Forensic Artefacts (github.com)
+11. Opensnitch for Linux
+12. Run THOR (temp license needed) on windows and Linux: THOR APT Scanner - Nextron Systems (nextron-systems.com)
+13. LinPEAS for PrivEsc
+14. Velociraptor
+15. Stop Deletion of shadow copy files: Neo23x0/Raccine: A Simple Ransomware Vaccine (github.com)

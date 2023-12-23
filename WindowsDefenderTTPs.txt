@@ -1,0 +1,36 @@
+1. Login with default creds (CHANGE THEM FAST)
+2. Windows Updates (FAST TO PATCH things like MS-010-70 (nsaEternalBlue)
+3. Windows Firewall enabled:  netsh firewall set opmode enable
+4. Windows Defender turn On
+5. Baseline GPO in AD Documenting all GPOs with PowerShell – SID-500.COM: Get-GPOReport -All -Domain "<domain name>" -ReportType HTML -Path $home\allgporeports.html
+6. Change Passwords (automate with lol.bat file)
+7. Disable users not used for scoring:  net user Administrator /active:no
+8. Set-SmbServerConfiguration -EnableSMB1Protocol $false
+9. ADD CanaryToken, Windows share, SQL, LLMNR, DNS, Word, Excel
+10. Install Sysmon from Sysinternals    powershell -nop -exec bypass -c "IEX (New-Object Net.WebClient).DownloadString('https://gist.githubusercontent.com/jessefmoore/d0a6325b4133b05a9a18096fdc8a8c78/raw/fd489ab49506409faf8c75bd3dc975a0b5b20f91/installSysmon.ps1');
+11. GPO for ScriptBlock Logging, audit process creation, cmd line auditing. REGKey wdigest off, smbv1 off,Guest disabled, administrator disabled and add another admin account that is not RID 500   
+12. Baseline with tcpview, processExplorer, and procmon, Adfind ADExplorer Sysinternals Suite - Sysinternals | Microsoft Learn
+13. Create SACLS Detecting Windows Endpoint Compromise with SACLs | by Dane Stuckey | Medium
+14. turn on AppLocker audit mode (aaronlocker review)
+15. DACL remove impersonate, and debugger aka mimikatz
+16. captureCreds with Flammingo (Canary)
+17. Install BlueSpawn
+18. Install ASR Rules via GPO
+19. Add EDR, like trails of ElasticEDR, or Sophos OR AURORA Agent - Nextron Systems (nextron-systems.com)
+20. Set up Chainsaw
+21. Run THOR (temp license needed) on windows and Linux: THOR APT Scanner - Nextron Systems (nextron-systems.com)
+22. WinPEAS
+23. Install Velociraptor
+24. Snaffler
+25. Audit with crackmapexec (now netexec)
+26. Pingcastle for AD issues
+27. Central Logging (not edr) install Wazuh
+28. Reset Machine Password (STOP SILVER TICKETS)
+29. Reset-ComputerMachinePassword (Microsoft.PowerShell.Management) - PowerShell | Microsoft Learn
+30. STOP GOLDEN TICKETS:
+31. AD Forest Recovery - Resetting the krbtgt password | Microsoft Learn
+32. Remove session from Windows server:   rwinsta /server: SessionId
+33. With PowerShell, you can modify the RDP listening port using: 	Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "PortNumber" -Value 21390 
+							New-NetFirewallRule -DisplayName 'RDPPORTLatest' -Profile 'Public' -Direction Inbound -Action Allow -Protocol TCP -LocalPort 21390
+34. AD GroupPolicy Admin group changes - Powershellisfun/Active Directory Admin Group Change Report at main · HarmVeenstra/Powershellisfun (github.com)
+35. Check logs with Hayabusa:
