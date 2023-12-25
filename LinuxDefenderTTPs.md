@@ -1,7 +1,7 @@
 1. Login with default creds
 2. Change default creds
 3. Check crontab for any scripts that may provide backdoor access
-4. Check process list for 
+4. Check process list for any obvious listeners or backdoors
 5. Ensure valid sources list before updating (on Ubuntu, /etc/apt/sources.list) 
 6. sudo apt update -y ; sudo apt upgrade -y 
 7. Linux Firewalls (ufw, fail2ban)
