@@ -5,3 +5,4 @@
 5. Reset source list before updating (in /etc/apt, wipe sources.list and reset from GUI)
 6. Audit SSH server config
    -You can do this by
+7. Use gsettings
