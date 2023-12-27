@@ -3,5 +3,5 @@
 3. Find any scripts/executables out of the ordinary in /usr/sbin (file *, look for python or bash?)
 4. Look for prohibited software (sudo apt list --manual-installed)
 5. Reset source list before updating (in /etc/apt, wipe sources.list and reset from GUI)
-6. Audit
-7.   You can add rules to block groups by doing 
+6. Audit SSH server config
+  7. You can do this by
