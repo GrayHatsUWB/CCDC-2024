@@ -1,4 +1,15 @@
-1. Login with default creds (CHANGE THEM FAST)
+1. Login with default creds 
+2. Change credentials
+3. Enforce strong credentials
+Enable Update, Perform Update
+Enable Defender
+Enable Firewall
+	If any of these are consistently turning off, check out Autoruns ()
+Allow requisite services
+
+Check registry
+
+
 2. Windows Updates (FAST TO PATCH things like MS-010-70 (nsaEternalBlue)
 3. Windows Firewall enabled:  netsh firewall set opmode enable
 4. Windows Defender turn On
